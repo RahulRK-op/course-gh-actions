@@ -5,6 +5,7 @@ on:
         paths: 
             - ".github/workflows/api-build.yml"
             - "api/**"
+    workflow_dispatch: #Manual Triggger
 
 jobs:
     Build:
