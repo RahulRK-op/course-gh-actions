@@ -14,6 +14,9 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v4
 
+            - name: Go Version
+              run: go version
+
             - name: Install GO
               uses: actions/setup-go@v5
               with:
