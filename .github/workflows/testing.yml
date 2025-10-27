@@ -1,8 +1,9 @@
 name: Test
 on: 
-  push:
-  schedule:
-    - cron: "*/5 * * * *"
+  # push:
+  # schedule:
+  #   - cron: "*/5 * * * *"
+  workflow_dispatch: 
 
 jobs:
   Build:
