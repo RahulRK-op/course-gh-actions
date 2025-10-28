@@ -26,4 +26,7 @@ jobs:
 
             - name: Go Version
               run: go version
+
+            - name: Dependencies Download
+              run: go mod download
         
